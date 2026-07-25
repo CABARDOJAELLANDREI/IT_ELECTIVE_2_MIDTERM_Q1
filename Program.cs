@@ -20,7 +20,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
+app.MapControllerRoute( // Ito po ang default route ng application. // Dito ko sinet ang unang bubuksan kapag ni-run ang project ay ang AccountController at ang Login action.
     name: "default",
     pattern: "{controller=Account}/{action=Login}/{id?}");
 

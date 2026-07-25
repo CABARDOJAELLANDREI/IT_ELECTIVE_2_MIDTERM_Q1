@@ -16,17 +16,18 @@
                 <div class="card-body">
 
                     <form asp-action="Login" method="post">
-                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+                        @* Ito ang form na magsu-submit ng data papunta sa Login action ng AccountController. Dahil POST method ito, ipinapadala niya ang data papunta sa server. *@
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div> @* Ito naman ang ginagamit para magpakita ng general errors gaya ng Invalid username or password. *@
                         <div class="mb-3">
                             <label asp-for="Username" class="form-label"></label>
-                            <input asp-for="Username" class="form-control" />
-                            <span asp-validation-for="Username" class="text-danger"></span>
+                            <input asp-for="Username" class="form-control" /> @* Ang asp-for ang nagli-link ng textbox sa Username property ng LoginViewModel. *@
+                            <span asp-validation-for="Username" class="text-danger"></span> @* Ito naman ang nagpapakita ng validation message para sa specific field. *@
                         </div>
 
                         <div class="mb-3">
                             <label asp-for="Password" class="form-label"></label>
-                            <input asp-for="Password" type="password" class="form-control" />
-                            <span asp-validation-for="Password" class="text-danger"></span>
+                            <input asp-for="Password" type="password" class="form-control" /> @* Same as Password textbox. Automatic din itong naka-connect sa Password property. *@
+                            <span asp-validation-for="Password" class="text-danger"></span> @* Ito naman ang nagpapakita ng validation message para sa specific field. *@
                         </div>
 
                         <button type="submit" class="btn btn-primary w-100">

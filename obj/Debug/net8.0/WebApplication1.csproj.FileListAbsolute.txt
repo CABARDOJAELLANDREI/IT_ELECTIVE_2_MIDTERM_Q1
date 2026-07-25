@@ -1,0 +1,70 @@
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\appsettings.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.exe
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.deps.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.dll
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\bin\Debug\net8.0\WebApplication1.pdb
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.dll
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.pdb
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+C:\Users\STUDENT\source\repos\IT_ELECTIVE_2_MIDTERM_Q1\obj\Debug\net8.0\ref\WebApplication1.dll
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\appsettings.Development.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\appsettings.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.staticwebassets.runtime.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.staticwebassets.endpoints.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.exe
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.deps.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.runtimeconfig.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.dll
+D:\School\3rd Year - 1st Sem\websys\hackathon\bin\Debug\net8.0\WebApplication1.pdb
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.sourcelink.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\scopedcss\bundle\WebApplication1.styles.css
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\scopedcss\projectbundle\WebApplication1.bundle.scp.css
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets.build.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets.development.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets\msbuild.build.WebApplication1.props
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication1.props
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebApplication1.props
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets.pack.json
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.dll
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\refint\WebApplication1.dll
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.pdb
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\WebApplication1.genruntimeconfig.cache
+D:\School\3rd Year - 1st Sem\websys\hackathon\obj\Debug\net8.0\ref\WebApplication1.dll

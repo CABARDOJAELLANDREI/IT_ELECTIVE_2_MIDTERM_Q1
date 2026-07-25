@@ -1,0 +1,147 @@
+﻿@model IT_ELECTIVE_BSIT312E_Cabardo_JaellAndrei.Models.MBTIViewModel
+
+@{
+    ViewData["Title"] = "MBTI Checker";
+}
+
+<div class="container mt-4 text-center">
+    <h1 class="fw-bold mb-4">Welcome to MBTI Checker!</h1>
+
+    <form asp-action="Welcome" method="post">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <div class="row justify-content-center mb-4">
+
+            <div class="col-3 col-md-2 d-flex flex-column align-items-center">
+                <span class="fw-bold small mb-2 text-dark">Extraversion</span>
+
+                <input type="radio" class="btn-check" asp-for="Axis1" value="E" id="btn-e" />
+                <label class="btn btn-mbti mbti-e rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-3" for="btn-e">E</label>
+
+                <input type="radio" class="btn-check" asp-for="Axis1" value="I" id="btn-i" />
+                <label class="btn btn-mbti mbti-i rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-2" for="btn-i">I</label>
+
+                <span class="fw-bold small text-dark">Introversion</span>
+                <span asp-validation-for="Axis1" class="text-danger small"></span>
+            </div>
+
+            <div class="col-3 col-md-2 d-flex flex-column align-items-center">
+                <span class="fw-bold small mb-2 text-dark">Sensing</span>
+
+                <input type="radio" class="btn-check" asp-for="Axis2" value="S" id="btn-s" />
+                <label class="btn btn-mbti mbti-s rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-3" for="btn-s">S</label>
+
+                <input type="radio" class="btn-check" asp-for="Axis2" value="N" id="btn-n" />
+                <label class="btn btn-mbti mbti-n rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-2" for="btn-n">N</label>
+
+                <span class="fw-bold small text-dark">Intuition</span>
+                <span asp-validation-for="Axis2" class="text-danger small"></span>
+            </div>
+
+            <div class="col-3 col-md-2 d-flex flex-column align-items-center">
+                <span class="fw-bold small mb-2 text-dark">Thinking</span>
+
+                <input type="radio" class="btn-check" asp-for="Axis3" value="T" id="btn-t" />
+                <label class="btn btn-mbti mbti-t rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-3" for="btn-t">T</label>
+
+                <input type="radio" class="btn-check" asp-for="Axis3" value="F" id="btn-f" />
+                <label class="btn btn-mbti mbti-f rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-2" for="btn-f">F</label>
+
+                <span class="fw-bold small text-dark">Feeling</span>
+                <span asp-validation-for="Axis3" class="text-danger small"></span>
+            </div>
+
+            <div class="col-3 col-md-2 d-flex flex-column align-items-center">
+                <span class="fw-bold small mb-2 text-dark">Judging</span>
+
+                <input type="radio" class="btn-check" asp-for="Axis4" value="J" id="btn-j" />
+                <label class="btn btn-mbti mbti-j rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-3" for="btn-j">J</label>
+
+                <input type="radio" class="btn-check" asp-for="Axis4" value="P" id="btn-p" />
+                <label class="btn btn-mbti mbti-p rounded-circle fw-bold fs-4 d-flex align-items-center justify-content-center mb-2" for="btn-p">P</label>
+
+                <span class="fw-bold small text-dark">Perceiving</span>
+                <span asp-validation-for="Axis4" class="text-danger small"></span>
+            </div>
+        </div>
+
+        <button type="submit" class="btn btn-dark px-4 mb-4 fw-bold">Check Type</button>
+    </form>
+
+    <div class="d-flex justify-content-center mb-3">
+        <div class="mbti-result-box px-4 py-2 border border-3 border-dark rounded-4 shadow-sm bg-white">
+            <h2 class="fw-bolder m-0 tracking-wide fs-1">
+                @(string.IsNullOrEmpty(Model.ResultCode) ? "----" : Model.ResultCode)
+            </h2>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+            <h5 class="fw-bold text-secondary lh-base">
+                @(string.IsNullOrEmpty(Model.Description)
+                                ? "Select one letter from each column and submit to see your personality type description."
+                                : Model.Description)
+            </h5>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-8">
+            <img src="~/Image/aaa.jpg" alt="MBTI Reference Chart" class="img-fluid rounded shadow-sm border" />
+        </div>
+    </div>
+
+    <div class="mb-5">
+        <a asp-action="Login" class="btn btn-outline-secondary">Log Out</a>
+    </div>
+</div>
+
+<style>
+    .btn-mbti {
+        width: 65px;
+        height: 65px;
+        color: black;
+        opacity: 0.4;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+    }
+
+        .btn-mbti:hover {
+            opacity: 0.75;
+        }
+
+    .btn-check:checked + .btn-mbti {
+        opacity: 1 !important;
+        transform: scale(1.1);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+        border: 2px solid #000 !important;
+    }
+
+    .mbti-e, .mbti-i {
+        background-color: #a0e7e5;
+    }
+
+    .mbti-s, .mbti-n {
+        background-color: #f4978e;
+    }
+
+    .mbti-t, .mbti-f {
+        background-color: #fbd561;
+    }
+
+    .mbti-j, .mbti-p {
+        background-color: #8ac926;
+    }
+
+    .mbti-result-box {
+        min-width: 180px;
+        letter-spacing: 4px;
+    }
+</style>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
